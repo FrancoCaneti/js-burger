@@ -9,6 +9,7 @@ console.log(ingredienti);
 var prezzoDisplay = document.getElementById('price');
 
 
+
 //click sul bottone
 
 bot.addEventListener('click', function(){
@@ -44,7 +45,7 @@ bot.addEventListener('click', function(){
 
         console.log(price);
         //prezzo a schermo
-        prezzoDisplay.innerHtml = price.toFixed(2); 
+       prezzoDisplay.innerHTML = price.toFixed(2);
     }
      
 });
